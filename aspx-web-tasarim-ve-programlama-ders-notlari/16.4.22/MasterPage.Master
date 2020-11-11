@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="aspx_web_tasarim_ve_programlama_ders_notlari._16._4._22.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+        <table class="style1">
+            <tr>
+                <td>
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/16.4.22/default.aspx">Anasayfa</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/16.4.22/aboutus.aspx">Hakkimiz</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/16.4.22/managers.aspx">İdari Kadro</asp:HyperLink>                   
+                </td>
+                <td>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+                <td>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>
