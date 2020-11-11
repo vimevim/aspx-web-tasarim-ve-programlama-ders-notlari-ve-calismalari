@@ -22,8 +22,9 @@ namespace aspx_web_tasarim_ve_programlama_ders_notlari._16._4._19
             }
             else
             {
-                Response.Redirect("kayit.aspx");
+                Response.Redirect("login.aspx");
             }
         }
+
     }
 }
