@@ -1,0 +1,32 @@
+﻿<%--
+Varsayılan dış görünüm şablonu. Aşağıdaki dış görünümler yalnızca örnek olarak verilmiştir.
+
+1. Adlandırılmış denetim dış görünümü. Aynı temada denetim türü başına aynı Dış Görünüm Kimliklerine
+   izin verilmediği için benzersiz bir Dış Görünüm Kimliği tanımlanmalıdır.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Varsayılan dış görünüm. Dış Görünüm Kimliği tanımlanmamıştır. Aynı temada denetim
+   türü başına yalnızca bir varsayılan dış görünüme izin verilir.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+<asp:TextBox  
+runat="server" 
+BackColor="#CCFFFF"  
+BorderColor="#3399FF" 
+BorderStyle="Ridge" 
+ForeColor="#9900CC"/>
+<asp:TextBox SkinId="skinim"
+runat="server" 
+BackColor="#333399" 
+BorderColor="#CCFF66" 
+Font-Bold="True" 
+Font-Italic="True" 
+Font-Names="Adobe Caslon Pro Bold" 
+Font-Overline="True" 
+Font-Strikeout="True" 
+Font-Underline="True" 
+ForeColor="#CCFFCC"/>

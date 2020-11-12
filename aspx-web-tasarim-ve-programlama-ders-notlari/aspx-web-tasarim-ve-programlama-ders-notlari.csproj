@@ -67,124 +67,142 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="16.4.15\16.4.15.validator.aspx" />
-    <Content Include="16.4.19\default.aspx" />
-    <Content Include="16.4.19\login.aspx" />
-    <Content Include="16.4.19\singin.aspx" />
-    <Content Include="16.4.07\16.4.7.addinItemsToTheList.aspx" />
-    <Content Include="16.4.21\WebUserControl.ascx" />
-    <Content Include="16.4.21\webUserControl.aspx" />
-    <Content Include="16.4.22\aboutus.aspx" />
-    <Content Include="16.4.22\default.aspx" />
-    <Content Include="16.4.22\managers.aspx" />
-    <Content Include="16.4.28\default.aspx" />
-    <Content Include="16.4.28\login.aspx" />
-    <Content Include="16.4.28\signin.aspx" />
+    <Content Include="2016.5.17.AppThemes.aspx" />
+    <Content Include="2016.4.15\16.4.15.validator.aspx" />
+    <Content Include="2016.4.19\default.aspx" />
+    <Content Include="2016.4.19\login.aspx" />
+    <Content Include="2016.4.19\singin.aspx" />
+    <Content Include="2016.4.07\16.4.7.addinItemsToTheList.aspx" />
+    <Content Include="2016.4.21\WebUserControl.ascx" />
+    <Content Include="2016.4.21\webUserControl.aspx" />
+    <Content Include="2016.4.22\aboutus.aspx" />
+    <Content Include="2016.4.22\default.aspx" />
+    <Content Include="2016.4.22\managers.aspx" />
+    <Content Include="2016.4.28\default.aspx" />
+    <Content Include="2016.4.28\login.aspx" />
+    <Content Include="2016.4.28\signin.aspx" />
+    <Content Include="2016.5.17.SiteMap.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="16.4.15\16.4.15.validator.aspx.cs">
+    <Compile Include="2016.5.17.AppThemes.aspx.cs">
+      <DependentUpon>2016.5.17.AppThemes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="2016.5.17.AppThemes.aspx.designer.cs">
+      <DependentUpon>2016.5.17.AppThemes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="2016.4.15\16.4.15.validator.aspx.cs">
       <DependentUpon>16.4.15.validator.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="16.4.15\16.4.15.validator.aspx.designer.cs">
+    <Compile Include="2016.4.15\16.4.15.validator.aspx.designer.cs">
       <DependentUpon>16.4.15.validator.aspx</DependentUpon>
     </Compile>
-    <Compile Include="16.4.19\default.aspx.cs">
+    <Compile Include="2016.4.19\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="16.4.19\default.aspx.designer.cs">
+    <Compile Include="2016.4.19\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="16.4.19\login.aspx.cs">
+    <Compile Include="2016.4.19\login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="16.4.19\login.aspx.designer.cs">
+    <Compile Include="2016.4.19\login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="16.4.19\singin.aspx.cs">
+    <Compile Include="2016.4.19\singin.aspx.cs">
       <DependentUpon>singin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="16.4.19\singin.aspx.designer.cs">
+    <Compile Include="2016.4.19\singin.aspx.designer.cs">
       <DependentUpon>singin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="16.4.07\16.4.7.addinItemsToTheList.aspx.cs">
+    <Compile Include="2016.4.07\16.4.7.addinItemsToTheList.aspx.cs">
       <DependentUpon>16.4.7.addinItemsToTheList.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="16.4.07\16.4.7.addinItemsToTheList.aspx.designer.cs">
+    <Compile Include="2016.4.07\16.4.7.addinItemsToTheList.aspx.designer.cs">
       <DependentUpon>16.4.7.addinItemsToTheList.aspx</DependentUpon>
     </Compile>
-    <Compile Include="16.4.21\WebUserControl.ascx.cs">
+    <Compile Include="2016.4.21\WebUserControl.ascx.cs">
       <DependentUpon>WebUserControl.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="16.4.21\WebUserControl.ascx.designer.cs">
+    <Compile Include="2016.4.21\WebUserControl.ascx.designer.cs">
       <DependentUpon>WebUserControl.ascx</DependentUpon>
     </Compile>
-    <Compile Include="16.4.21\webUserControl.aspx.cs">
+    <Compile Include="2016.4.21\webUserControl.aspx.cs">
       <DependentUpon>webUserControl.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="16.4.21\webUserControl.aspx.designer.cs">
+    <Compile Include="2016.4.21\webUserControl.aspx.designer.cs">
       <DependentUpon>webUserControl.aspx</DependentUpon>
     </Compile>
-    <Compile Include="16.4.22\aboutus.aspx.cs">
+    <Compile Include="2016.4.22\aboutus.aspx.cs">
       <DependentUpon>aboutus.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="16.4.22\aboutus.aspx.designer.cs">
+    <Compile Include="2016.4.22\aboutus.aspx.designer.cs">
       <DependentUpon>aboutus.aspx</DependentUpon>
     </Compile>
-    <Compile Include="16.4.22\default.aspx.cs">
+    <Compile Include="2016.4.22\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="16.4.22\default.aspx.designer.cs">
+    <Compile Include="2016.4.22\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="16.4.22\managers.aspx.cs">
+    <Compile Include="2016.4.22\managers.aspx.cs">
       <DependentUpon>managers.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="16.4.22\managers.aspx.designer.cs">
+    <Compile Include="2016.4.22\managers.aspx.designer.cs">
       <DependentUpon>managers.aspx</DependentUpon>
     </Compile>
-    <Compile Include="16.4.22\MasterPage.Master.cs">
+    <Compile Include="2016.4.22\MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="16.4.22\MasterPage.Master.designer.cs">
+    <Compile Include="2016.4.22\MasterPage.Master.designer.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
     </Compile>
-    <Compile Include="16.4.28\default.aspx.cs">
+    <Compile Include="2016.4.28\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="16.4.28\default.aspx.designer.cs">
+    <Compile Include="2016.4.28\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="16.4.28\login.aspx.cs">
+    <Compile Include="2016.4.28\login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="16.4.28\login.aspx.designer.cs">
+    <Compile Include="2016.4.28\login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="16.4.28\signin.aspx.cs">
+    <Compile Include="2016.4.28\signin.aspx.cs">
       <DependentUpon>signin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="16.4.28\signin.aspx.designer.cs">
+    <Compile Include="2016.4.28\signin.aspx.designer.cs">
       <DependentUpon>signin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="2016.5.17.SiteMap.aspx.cs">
+      <DependentUpon>2016.5.17.SiteMap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="2016.5.17.SiteMap.aspx.designer.cs">
+      <DependentUpon>2016.5.17.SiteMap.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="16.4.22\MasterPage.Master" />
+    <Content Include="2016.4.22\MasterPage.Master" />
+    <Content Include="App_Themes\2016.5.17.AppTheme\2016.5.17.AppTheme.skin" />
+    <Content Include="Web.sitemap" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
